@@ -1,0 +1,56 @@
+.unit {
+    width: 68px;
+    height: 82px;
+    margin: 0 0 0 0;
+    border: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    width: 68px;
+}
+
+.knight_carrier_0_1 {
+    background: url(../img/units/knight/carrier-0-1.jpg) no-repeat;
+    cursor: pointer;
+}
+
+.knight_warrior_0_1 {
+    background: url(../img/units/knight/warrior-0-1.jpg) no-repeat;
+    cursor: pointer;
+}
+
+.knight_cavalry_0_1 {
+    background: url(../img/units/knight/cavalry-0-1.jpg) no-repeat;
+    cursor: pointer;
+}
+
+.knight_airborne_0_1 {
+    background: url(../img/units/knight/airborne-0-1.jpg) no-repeat;
+    cursor: pointer;
+}
+
+.knight_archer_0_1 {
+    background: url(../img/units/knight/archer-0-1.jpg) no-repeat;
+    cursor: pointer;
+}
+
+.knight_healer_0_1 {
+    background: url(../img/units/knight/healer-0-1.jpg) no-repeat;
+    cursor: pointer;
+}
+
+.knight_mercenary_0_1 {
+    background: url(../img/units/knight/mercenary-0-1.jpg) no-repeat;
+    cursor: pointer;
+}
+
+.knight_mage_0_1 {
+    background: url(../img/units/knight/mage-0-1.jpg) no-repeat;
+    cursor: pointer;
+}
