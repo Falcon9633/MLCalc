@@ -15,42 +15,46 @@ input[type=number] {
     width: 68px;
 }
 
-.knight_carrier_0_1 {
-    background: url(../img/units/knight/carrier-0-1.jpg) no-repeat;
+.non-active {
+    filter: grayscale(100%) brightness(70%);
+}
+
+.knight-carrier-1 {
+    background: url(../img/units/knight/carrier-1.jpg) no-repeat;
     cursor: pointer;
 }
 
-.knight_warrior_0_1 {
-    background: url(../img/units/knight/warrior-0-1.jpg) no-repeat;
+.knight-warrior-1 {
+    background: url(../img/units/knight/warrior-1.jpg) no-repeat;
     cursor: pointer;
 }
 
-.knight_cavalry_0_1 {
-    background: url(../img/units/knight/cavalry-0-1.jpg) no-repeat;
+.knight-cavalry-1 {
+    background: url(../img/units/knight/cavalry-1.jpg) no-repeat;
     cursor: pointer;
 }
 
-.knight_airborne_0_1 {
-    background: url(../img/units/knight/airborne-0-1.jpg) no-repeat;
+.knight-airborne-1 {
+    background: url(../img/units/knight/airborne-1.jpg) no-repeat;
     cursor: pointer;
 }
 
-.knight_archer_0_1 {
-    background: url(../img/units/knight/archer-0-1.jpg) no-repeat;
+.knight-archer-1 {
+    background: url(../img/units/knight/archer-1.jpg) no-repeat;
     cursor: pointer;
 }
 
-.knight_healer_0_1 {
-    background: url(../img/units/knight/healer-0-1.jpg) no-repeat;
+.knight-healer-1 {
+    background: url(../img/units/knight/healer-1.jpg) no-repeat;
     cursor: pointer;
 }
 
-.knight_mercenary_0_1 {
-    background: url(../img/units/knight/mercenary-0-1.jpg) no-repeat;
+.knight-mercenary-1 {
+    background: url(../img/units/knight/mercenary-1.jpg) no-repeat;
     cursor: pointer;
 }
 
-.knight_mage_0_1 {
-    background: url(../img/units/knight/mage-0-1.jpg) no-repeat;
+.knight-mage-1 {
+    background: url(../img/units/knight/mage-1.jpg) no-repeat;
     cursor: pointer;
 }
