@@ -1,0 +1,82 @@
+<div th:class="|row justify-content-end ${display}|" th:fragment="mainUnitPanel (who, ordinal, display)">
+    <div class="col-7">
+        <div class="row">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="row hero no-hero">
+                            <input type="hidden" th:name="|${who}_${ordinal}_hero|" value="0">
+                        </div>
+                        <div class="row">
+                            <div class="col-1">
+                                <input type="checkbox" id="on_off_hero">
+                            </div>
+                            <div class="col-7">
+                                <label for="on_off_hero" style="font-size: 12px">Disable</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="unit knight-carrier-1 non-active">
+                            <input type="hidden" th:name="|${who}_${ordinal}_carrier_lvl|" value="1">
+                        </div>
+                        <input type="number" th:name="|${who}_${ordinal}_carrier_amount|" value="0">
+                    </div>
+                    <div class="col-4">
+                        <div class="unit knight-warrior-1 non-active">
+                            <input type="hidden" th:name="|${who}_${ordinal}_carrier_lvl|" value="1">
+                        </div>
+                        <input type="number" th:name="|${who}_${ordinal}_warrior_amount|" value="0">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="unit knight-cavalry-1 non-active">
+                            <input type="hidden" th:name="|${who}_${ordinal}_carrier_lvl|" value="1">
+                        </div>
+                        <input type="number" th:name="|${who}_${ordinal}_cavalry_amount|" value="0">
+                    </div>
+                    <div class="col-4">
+                        <div class="unit knight-airborne-1 non-active">
+                            <input type="hidden" th:name="|${who}_${ordinal}_carrier_lvl|" value="1">
+                        </div>
+                        <input type="number" th:name="|${who}_${ordinal}_airborne_amount|" value="0">
+                    </div>
+                    <div class="col-4">
+                        <div class="unit knight-archer-1 non-active">
+                            <input type="hidden" th:name="|${who}_${ordinal}_carrier_lvl|" value="1">
+                        </div>
+                        <input type="number" th:name="|${who}_${ordinal}_archer_amount|" value="0">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="unit knight-healer-1 non-active">
+                            <input type="hidden" th:name="|${who}_${ordinal}_carrier_lvl|" value="1">
+                        </div>
+                        <input type="number" th:name="|${who}_${ordinal}_healer_amount|" value="0">
+                    </div>
+                    <div class="col-4">
+                        <div class="unit knight-mercenary-1 non-active">
+                            <input type="hidden" th:name="|${who}_${ordinal}_carrier_lvl|" value="1">
+                        </div>
+                        <input type="number" th:name="|${who}_${ordinal}_mercenary_amount|" value="0">
+                    </div>
+                    <div class="col-4">
+                        <div class="unit knight-mage-1 non-active">
+                            <input type="hidden" th:name="|${who}_${ordinal}_carrier_lvl|" value="1">
+                        </div>
+                        <input type="number" th:name="|${who}_${ordinal}_mage_amount|" value="0">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

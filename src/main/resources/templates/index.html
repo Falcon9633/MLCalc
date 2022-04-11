@@ -9,69 +9,23 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link>
     <link th:href="@{/css/unit.css}" rel="stylesheet" type="text/css">
+    <link th:href="@{/css/hero.css}" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
 
 <div class="container">
-    <div class="row justify-content-end">
-        <div class="col-8">
-            <div class="row justify-content-end">
-                <div class="col-1">
-                    <div class="unit knight-carrier-1 non-active">
-                        <input type="hidden" name="attacker1_carrier_lvl" value="1">
-                    </div>
-                    <input type="number" value="0" name="attacker1_carrier">
-                </div>
-                <div class="col-1">
-                    <div class="unit knight-warrior-1 non-active">
-                        <input type="hidden" name="attacker1_carrier_lvl" value="1">
-                    </div>
-                    <input type="number" value="0" name="attacker1_warrior">
-                </div>
-                <div class="col-1">
-                    <div class="unit knight-cavalry-1 non-active">
-                        <input type="hidden" name="attacker1_carrier_lvl" value="1">
-                    </div>
-                    <input type="number" value="0" name="attacker1_cavalry">
-                </div>
-                <div class="col-1">
-                    <div class="unit knight-airborne-1 non-active">
-                        <input type="hidden" name="attacker1_carrier_lvl" value="1">
-                    </div>
-                    <input type="number" value="0" name="attacker1_airborne">
-                </div>
-                <div class="col-1">
-                    <div class="unit knight-archer-1 non-active">
-                        <input type="hidden" name="attacker1_carrier_lvl" value="1">
-                    </div>
-                    <input type="number" value="0" name="attacker1_archer">
-                </div>
-                <div class="col-1">
-                    <div class="unit knight-healer-1 non-active">
-                        <input type="hidden" name="attacker1_carrier_lvl" value="1">
-                    </div>
-                    <input type="number" value="0" name="attacker1_healer">
-                </div>
-                <div class="col-1">
-                    <div class="unit knight-mercenary-1 non-active">
-                        <input type="hidden" name="attacker1_carrier_lvl" value="1">
-                    </div>
-                    <input type="number" value="0" name="attacker1_mercenary">
-                </div>
-                <div class="col-1">
-                    <div class="unit knight-mage-1 non-active">
-                        <input type="hidden" name="attacker1_carrier_lvl" value="1">
-                    </div>
-                    <input type="number" value="0" name="attacker1_mage">
-                </div>
-            </div>
-        </div>
-    </div>
+    <div th:replace="fragments/mainUnitPanel.html :: mainUnitPanel(who = 'attacker', ordinal = '1', display = '')"></div>
+    <div th:replace="fragments/mainUnitPanel.html :: mainUnitPanel(who = 'attacker', ordinal = '2', display = 'd-none')"></div>
+    <div th:replace="fragments/mainUnitPanel.html :: mainUnitPanel(who = 'deffer', ordinal = '1', display = '')"></div>
+    <div th:replace="fragments/mainUnitPanel.html :: mainUnitPanel(who = 'deffer', ordinal = '2', display = 'd-none')"></div>
+    <div th:replace="fragments/mainUnitPanel.html :: mainUnitPanel(who = 'deffer', ordinal = '3', display = 'd-none')"></div>
 </div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+<script type="text/javascript" th:src="@{/js/unitsHandler.js}"></script>
 </body>
 </html>

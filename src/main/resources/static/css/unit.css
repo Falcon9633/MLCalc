@@ -1,8 +1,7 @@
 .unit {
     width: 68px;
     height: 82px;
-    margin: 0 0 0 0;
-    border: 0;
+    cursor: pointer;
 }
 
 input::-webkit-outer-spin-button,
@@ -13,48 +12,849 @@ input::-webkit-inner-spin-button {
 
 input[type=number] {
     width: 68px;
+    font-size: 13px;
 }
 
 .non-active {
     filter: grayscale(100%) brightness(70%);
 }
 
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------Demon--------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------Carrier------------------------------------------------------------*/
+.demon-carrier-1 {
+    background: url(../img/units/demon/carrier-1.jpg) no-repeat;
+}
+
+.demon-carrier-2 {
+    background: url(../img/units/demon/carrier-2.jpg) no-repeat;
+}
+
+.demon-carrier-3 {
+    background: url(../img/units/demon/carrier-3.jpg) no-repeat;
+}
+
+.demon-carrier-4 {
+    background: url(../img/units/demon/carrier-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Warrior------------------------------------------------------------*/
+.demon-warrior-1 {
+    background: url(../img/units/demon/warrior-1.jpg) no-repeat;
+}
+
+.demon-warrior-2 {
+    background: url(../img/units/demon/warrior-2.jpg) no-repeat;
+}
+
+.demon-warrior-3 {
+    background: url(../img/units/demon/warrior-3.jpg) no-repeat;
+}
+
+.demon-warrior-4 {
+    background: url(../img/units/demon/warrior-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Cavalry------------------------------------------------------------*/
+.demon-cavalry-1 {
+    background: url(../img/units/demon/cavalry-1.jpg) no-repeat;
+}
+
+.demon-cavalry-2 {
+    background: url(../img/units/demon/cavalry-2.jpg) no-repeat;
+}
+
+.demon-cavalry-3 {
+    background: url(../img/units/demon/cavalry-3.jpg) no-repeat;
+}
+
+.demon-cavalry-4 {
+    background: url(../img/units/demon/cavalry-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Airborne-----------------------------------------------------------*/
+.demon-airborne-1 {
+    background: url(../img/units/demon/airborne-1.jpg) no-repeat;
+}
+
+.demon-airborne-2 {
+    background: url(../img/units/demon/airborne-2.jpg) no-repeat;
+}
+
+.demon-airborne-3 {
+    background: url(../img/units/demon/airborne-3.jpg) no-repeat;
+}
+
+.demon-airborne-4 {
+    background: url(../img/units/demon/airborne-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Archer-------------------------------------------------------------*/
+.demon-archer-1 {
+    background: url(../img/units/demon/archer-1.jpg) no-repeat;
+}
+
+.demon-archer-2 {
+    background: url(../img/units/demon/archer-2.jpg) no-repeat;
+}
+
+.demon-archer-3 {
+    background: url(../img/units/demon/archer-3.jpg) no-repeat;
+}
+
+.demon-archer-4 {
+    background: url(../img/units/demon/archer-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Healer-------------------------------------------------------------*/
+.demon-healer-1 {
+    background: url(../img/units/demon/healer-1.jpg) no-repeat;
+}
+
+.demon-healer-2 {
+    background: url(../img/units/demon/healer-2.jpg) no-repeat;
+}
+
+.demon-healer-3 {
+    background: url(../img/units/demon/healer-3.jpg) no-repeat;
+}
+
+.demon-healer-4 {
+    background: url(../img/units/demon/healer-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Mercenary----------------------------------------------------------*/
+.demon-mercenary-1 {
+    background: url(../img/units/demon/mercenary-1.jpg) no-repeat;
+}
+
+.demon-mercenary-2 {
+    background: url(../img/units/demon/mercenary-2.jpg) no-repeat;
+}
+
+.demon-mercenary-3 {
+    background: url(../img/units/demon/mercenary-3.jpg) no-repeat;
+}
+
+.demon-mercenary-4 {
+    background: url(../img/units/demon/mercenary-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Mage---------------------------------------------------------------*/
+.demon-mage-1 {
+    background: url(../img/units/demon/mage-1.jpg) no-repeat;
+}
+
+.demon-mage-2 {
+    background: url(../img/units/demon/mage-2.jpg) no-repeat;
+}
+
+.demon-mage-3 {
+    background: url(../img/units/demon/mage-3.jpg) no-repeat;
+}
+
+.demon-mage-4 {
+    background: url(../img/units/demon/mage-4.jpg) no-repeat;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------Drow---------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------Carrier------------------------------------------------------------*/
+.drow-carrier-1 {
+    background: url(../img/units/drow/carrier-1.jpg) no-repeat;
+}
+
+.drow-carrier-2 {
+    background: url(../img/units/drow/carrier-2.jpg) no-repeat;
+}
+
+.drow-carrier-3 {
+    background: url(../img/units/drow/carrier-3.jpg) no-repeat;
+}
+
+.drow-carrier-4 {
+    background: url(../img/units/drow/carrier-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Warrior------------------------------------------------------------*/
+.drow-warrior-1 {
+    background: url(../img/units/drow/warrior-1.jpg) no-repeat;
+}
+
+.drow-warrior-2 {
+    background: url(../img/units/drow/warrior-2.jpg) no-repeat;
+}
+
+.drow-warrior-3 {
+    background: url(../img/units/drow/warrior-3.jpg) no-repeat;
+}
+
+.drow-warrior-4 {
+    background: url(../img/units/drow/warrior-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Cavalry------------------------------------------------------------*/
+.drow-cavalry-1 {
+    background: url(../img/units/drow/cavalry-1.jpg) no-repeat;
+}
+
+.drow-cavalry-2 {
+    background: url(../img/units/drow/cavalry-2.jpg) no-repeat;
+}
+
+.drow-cavalry-3 {
+    background: url(../img/units/drow/cavalry-3.jpg) no-repeat;
+}
+
+.drow-cavalry-4 {
+    background: url(../img/units/drow/cavalry-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Airborne-----------------------------------------------------------*/
+.drow-airborne-1 {
+    background: url(../img/units/drow/airborne-1.jpg) no-repeat;
+}
+
+.drow-airborne-2 {
+    background: url(../img/units/drow/airborne-2.jpg) no-repeat;
+}
+
+.drow-airborne-3 {
+    background: url(../img/units/drow/airborne-3.jpg) no-repeat;
+}
+
+.drow-airborne-4 {
+    background: url(../img/units/drow/airborne-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Archer-------------------------------------------------------------*/
+.drow-archer-1 {
+    background: url(../img/units/drow/archer-1.jpg) no-repeat;
+}
+
+.drow-archer-2 {
+    background: url(../img/units/drow/archer-2.jpg) no-repeat;
+}
+
+.drow-archer-3 {
+    background: url(../img/units/drow/archer-3.jpg) no-repeat;
+}
+
+.drow-archer-4 {
+    background: url(../img/units/drow/archer-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Healer-------------------------------------------------------------*/
+.drow-healer-1 {
+    background: url(../img/units/drow/healer-1.jpg) no-repeat;
+}
+
+.drow-healer-2 {
+    background: url(../img/units/drow/healer-2.jpg) no-repeat;
+}
+
+.drow-healer-3 {
+    background: url(../img/units/drow/healer-3.jpg) no-repeat;
+}
+
+.drow-healer-4 {
+    background: url(../img/units/drow/healer-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Mercenary----------------------------------------------------------*/
+.drow-mercenary-1 {
+    background: url(../img/units/drow/mercenary-1.jpg) no-repeat;
+}
+
+.drow-mercenary-2 {
+    background: url(../img/units/drow/mercenary-2.jpg) no-repeat;
+}
+
+.drow-mercenary-3 {
+    background: url(../img/units/drow/mercenary-3.jpg) no-repeat;
+}
+
+.drow-mercenary-4 {
+    background: url(../img/units/drow/mercenary-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Mage---------------------------------------------------------------*/
+.drow-mage-1 {
+    background: url(../img/units/drow/mage-1.jpg) no-repeat;
+}
+
+.drow-mage-2 {
+    background: url(../img/units/drow/mage-2.jpg) no-repeat;
+}
+
+.drow-mage-3 {
+    background: url(../img/units/drow/mage-3.jpg) no-repeat;
+}
+
+.drow-mage-4 {
+    background: url(../img/units/drow/mage-4.jpg) no-repeat;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------Elf---------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------Carrier------------------------------------------------------------*/
+.elf-carrier-1 {
+    background: url(../img/units/elf/carrier-1.jpg) no-repeat;
+}
+
+.elf-carrier-2 {
+    background: url(../img/units/elf/carrier-2.jpg) no-repeat;
+}
+
+.elf-carrier-3 {
+    background: url(../img/units/elf/carrier-3.jpg) no-repeat;
+}
+
+.elf-carrier-4 {
+    background: url(../img/units/elf/carrier-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Warrior------------------------------------------------------------*/
+.elf-warrior-1 {
+    background: url(../img/units/elf/warrior-1.jpg) no-repeat;
+}
+
+.elf-warrior-2 {
+    background: url(../img/units/elf/warrior-2.jpg) no-repeat;
+}
+
+.elf-warrior-3 {
+    background: url(../img/units/elf/warrior-3.jpg) no-repeat;
+}
+
+.elf-warrior-4 {
+    background: url(../img/units/elf/warrior-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Cavalry------------------------------------------------------------*/
+.elf-cavalry-1 {
+    background: url(../img/units/elf/cavalry-1.jpg) no-repeat;
+}
+
+.elf-cavalry-2 {
+    background: url(../img/units/elf/cavalry-2.jpg) no-repeat;
+}
+
+.elf-cavalry-3 {
+    background: url(../img/units/elf/cavalry-3.jpg) no-repeat;
+}
+
+.elf-cavalry-4 {
+    background: url(../img/units/elf/cavalry-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Airborne-----------------------------------------------------------*/
+.elf-airborne-1 {
+    background: url(../img/units/elf/airborne-1.jpg) no-repeat;
+}
+
+.elf-airborne-2 {
+    background: url(../img/units/elf/airborne-2.jpg) no-repeat;
+}
+
+.elf-airborne-3 {
+    background: url(../img/units/elf/airborne-3.jpg) no-repeat;
+}
+
+.elf-airborne-4 {
+    background: url(../img/units/elf/airborne-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Archer-------------------------------------------------------------*/
+.elf-archer-1 {
+    background: url(../img/units/elf/archer-1.jpg) no-repeat;
+}
+
+.elf-archer-2 {
+    background: url(../img/units/elf/archer-2.jpg) no-repeat;
+}
+
+.elf-archer-3 {
+    background: url(../img/units/elf/archer-3.jpg) no-repeat;
+}
+
+.elf-archer-4 {
+    background: url(../img/units/elf/archer-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Healer-------------------------------------------------------------*/
+.elf-healer-1 {
+    background: url(../img/units/elf/healer-1.jpg) no-repeat;
+}
+
+.elf-healer-2 {
+    background: url(../img/units/elf/healer-2.jpg) no-repeat;
+}
+
+.elf-healer-3 {
+    background: url(../img/units/elf/healer-3.jpg) no-repeat;
+}
+
+.elf-healer-4 {
+    background: url(../img/units/elf/healer-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Mercenary----------------------------------------------------------*/
+.elf-mercenary-1 {
+    background: url(../img/units/elf/mercenary-1.jpg) no-repeat;
+}
+
+.elf-mercenary-2 {
+    background: url(../img/units/elf/mercenary-2.jpg) no-repeat;
+}
+
+.elf-mercenary-3 {
+    background: url(../img/units/elf/mercenary-3.jpg) no-repeat;
+}
+
+.elf-mercenary-4 {
+    background: url(../img/units/elf/mercenary-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Mage---------------------------------------------------------------*/
+.elf-mage-1 {
+    background: url(../img/units/elf/mage-1.jpg) no-repeat;
+}
+
+.elf-mage-2 {
+    background: url(../img/units/elf/mage-2.jpg) no-repeat;
+}
+
+.elf-mage-3 {
+    background: url(../img/units/elf/mage-3.jpg) no-repeat;
+}
+
+.elf-mage-4 {
+    background: url(../img/units/elf/mage-4.jpg) no-repeat;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------Knight-------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------Carrier------------------------------------------------------------*/
 .knight-carrier-1 {
     background: url(../img/units/knight/carrier-1.jpg) no-repeat;
-    cursor: pointer;
 }
 
+.knight-carrier-2 {
+    background: url(../img/units/knight/carrier-2.jpg) no-repeat;
+}
+
+.knight-carrier-3 {
+    background: url(../img/units/knight/carrier-3.jpg) no-repeat;
+}
+
+.knight-carrier-4 {
+    background: url(../img/units/knight/carrier-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Warrior------------------------------------------------------------*/
 .knight-warrior-1 {
     background: url(../img/units/knight/warrior-1.jpg) no-repeat;
-    cursor: pointer;
 }
 
+.knight-warrior-2 {
+    background: url(../img/units/knight/warrior-2.jpg) no-repeat;
+}
+
+.knight-warrior-3 {
+    background: url(../img/units/knight/warrior-3.jpg) no-repeat;
+}
+
+.knight-warrior-4 {
+    background: url(../img/units/knight/warrior-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Cavalry------------------------------------------------------------*/
 .knight-cavalry-1 {
     background: url(../img/units/knight/cavalry-1.jpg) no-repeat;
-    cursor: pointer;
 }
 
+.knight-cavalry-2 {
+    background: url(../img/units/knight/cavalry-2.jpg) no-repeat;
+}
+
+.knight-cavalry-3 {
+    background: url(../img/units/knight/cavalry-3.jpg) no-repeat;
+}
+
+.knight-cavalry-4 {
+    background: url(../img/units/knight/cavalry-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Airborne-----------------------------------------------------------*/
 .knight-airborne-1 {
     background: url(../img/units/knight/airborne-1.jpg) no-repeat;
-    cursor: pointer;
 }
 
+.knight-airborne-2 {
+    background: url(../img/units/knight/airborne-2.jpg) no-repeat;
+}
+
+.knight-airborne-3 {
+    background: url(../img/units/knight/airborne-3.jpg) no-repeat;
+}
+
+.knight-airborne-4 {
+    background: url(../img/units/knight/airborne-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Archer-------------------------------------------------------------*/
 .knight-archer-1 {
     background: url(../img/units/knight/archer-1.jpg) no-repeat;
-    cursor: pointer;
 }
 
+.knight-archer-2 {
+    background: url(../img/units/knight/archer-2.jpg) no-repeat;
+}
+
+.knight-archer-3 {
+    background: url(../img/units/knight/archer-3.jpg) no-repeat;
+}
+
+.knight-archer-4 {
+    background: url(../img/units/knight/archer-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Healer-------------------------------------------------------------*/
 .knight-healer-1 {
     background: url(../img/units/knight/healer-1.jpg) no-repeat;
-    cursor: pointer;
 }
 
+.knight-healer-2 {
+    background: url(../img/units/knight/healer-2.jpg) no-repeat;
+}
+
+.knight-healer-3 {
+    background: url(../img/units/knight/healer-3.jpg) no-repeat;
+}
+
+.knight-healer-4 {
+    background: url(../img/units/knight/healer-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Mercenary----------------------------------------------------------*/
 .knight-mercenary-1 {
     background: url(../img/units/knight/mercenary-1.jpg) no-repeat;
-    cursor: pointer;
 }
 
+.knight-mercenary-2 {
+    background: url(../img/units/knight/mercenary-2.jpg) no-repeat;
+}
+
+.knight-mercenary-3 {
+    background: url(../img/units/knight/mercenary-3.jpg) no-repeat;
+}
+
+.knight-mercenary-4 {
+    background: url(../img/units/knight/mercenary-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Mage---------------------------------------------------------------*/
 .knight-mage-1 {
     background: url(../img/units/knight/mage-1.jpg) no-repeat;
-    cursor: pointer;
+}
+
+.knight-mage-2 {
+    background: url(../img/units/knight/mage-2.jpg) no-repeat;
+}
+
+.knight-mage-3 {
+    background: url(../img/units/knight/mage-3.jpg) no-repeat;
+}
+
+.knight-mage-4 {
+    background: url(../img/units/knight/mage-4.jpg) no-repeat;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------Monster------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------Carrier------------------------------------------------------------*/
+.monster-carrier-1 {
+    background: url(../img/units/monster/carrier-1.jpg) no-repeat;
+}
+
+.monster-carrier-2 {
+    background: url(../img/units/monster/carrier-2.jpg) no-repeat;
+}
+
+.monster-carrier-3 {
+    background: url(../img/units/monster/carrier-3.jpg) no-repeat;
+}
+
+.monster-carrier-4 {
+    background: url(../img/units/monster/carrier-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Warrior------------------------------------------------------------*/
+.monster-warrior-1 {
+    background: url(../img/units/monster/warrior-1.jpg) no-repeat;
+}
+
+.monster-warrior-2 {
+    background: url(../img/units/monster/warrior-2.jpg) no-repeat;
+}
+
+.monster-warrior-3 {
+    background: url(../img/units/monster/warrior-3.jpg) no-repeat;
+}
+
+.monster-warrior-4 {
+    background: url(../img/units/monster/warrior-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Cavalry------------------------------------------------------------*/
+.monster-cavalry-1 {
+    background: url(../img/units/monster/cavalry-1.jpg) no-repeat;
+}
+
+.monster-cavalry-2 {
+    background: url(../img/units/monster/cavalry-2.jpg) no-repeat;
+}
+
+.monster-cavalry-3 {
+    background: url(../img/units/monster/cavalry-3.jpg) no-repeat;
+}
+
+.monster-cavalry-4 {
+    background: url(../img/units/monster/cavalry-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Airborne-----------------------------------------------------------*/
+.monster-airborne-1 {
+    background: url(../img/units/monster/airborne-1.jpg) no-repeat;
+}
+
+.monster-airborne-2 {
+    background: url(../img/units/monster/airborne-2.jpg) no-repeat;
+}
+
+.monster-airborne-3 {
+    background: url(../img/units/monster/airborne-3.jpg) no-repeat;
+}
+
+.monster-airborne-4 {
+    background: url(../img/units/monster/airborne-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Archer-------------------------------------------------------------*/
+.monster-archer-1 {
+    background: url(../img/units/monster/archer-1.jpg) no-repeat;
+}
+
+.monster-archer-2 {
+    background: url(../img/units/monster/archer-2.jpg) no-repeat;
+}
+
+.monster-archer-3 {
+    background: url(../img/units/monster/archer-3.jpg) no-repeat;
+}
+
+.monster-archer-4 {
+    background: url(../img/units/monster/archer-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Healer-------------------------------------------------------------*/
+.monster-healer-1 {
+    background: url(../img/units/monster/healer-1.jpg) no-repeat;
+}
+
+.monster-healer-2 {
+    background: url(../img/units/monster/healer-2.jpg) no-repeat;
+}
+
+.monster-healer-3 {
+    background: url(../img/units/monster/healer-3.jpg) no-repeat;
+}
+
+.monster-healer-4 {
+    background: url(../img/units/monster/healer-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Mercenary----------------------------------------------------------*/
+.monster-mercenary-1 {
+    background: url(../img/units/monster/mercenary-1.jpg) no-repeat;
+}
+
+.monster-mercenary-2 {
+    background: url(../img/units/monster/mercenary-2.jpg) no-repeat;
+}
+
+.monster-mercenary-3 {
+    background: url(../img/units/monster/mercenary-3.jpg) no-repeat;
+}
+
+.monster-mercenary-4 {
+    background: url(../img/units/monster/mercenary-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Mage---------------------------------------------------------------*/
+.monster-mage-1 {
+    background: url(../img/units/monster/mage-1.jpg) no-repeat;
+}
+
+.monster-mage-2 {
+    background: url(../img/units/monster/mage-2.jpg) no-repeat;
+}
+
+.monster-mage-3 {
+    background: url(../img/units/monster/mage-3.jpg) no-repeat;
+}
+
+.monster-mage-4 {
+    background: url(../img/units/monster/mage-4.jpg) no-repeat;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------Undead-------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------Carrier------------------------------------------------------------*/
+.undead-carrier-1 {
+    background: url(../img/units/undead/carrier-1.jpg) no-repeat;
+}
+
+.undead-carrier-2 {
+    background: url(../img/units/undead/carrier-2.jpg) no-repeat;
+}
+
+.undead-carrier-3 {
+    background: url(../img/units/undead/carrier-3.jpg) no-repeat;
+}
+
+.undead-carrier-4 {
+    background: url(../img/units/undead/carrier-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Warrior------------------------------------------------------------*/
+.undead-warrior-1 {
+    background: url(../img/units/undead/warrior-1.jpg) no-repeat;
+}
+
+.undead-warrior-2 {
+    background: url(../img/units/undead/warrior-2.jpg) no-repeat;
+}
+
+.undead-warrior-3 {
+    background: url(../img/units/undead/warrior-3.jpg) no-repeat;
+}
+
+.undead-warrior-4 {
+    background: url(../img/units/undead/warrior-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Cavalry------------------------------------------------------------*/
+.undead-cavalry-1 {
+    background: url(../img/units/undead/cavalry-1.jpg) no-repeat;
+}
+
+.undead-cavalry-2 {
+    background: url(../img/units/undead/cavalry-2.jpg) no-repeat;
+}
+
+.undead-cavalry-3 {
+    background: url(../img/units/undead/cavalry-3.jpg) no-repeat;
+}
+
+.undead-cavalry-4 {
+    background: url(../img/units/undead/cavalry-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Airborne-----------------------------------------------------------*/
+.undead-airborne-1 {
+    background: url(../img/units/undead/airborne-1.jpg) no-repeat;
+}
+
+.undead-airborne-2 {
+    background: url(../img/units/undead/airborne-2.jpg) no-repeat;
+}
+
+.undead-airborne-3 {
+    background: url(../img/units/undead/airborne-3.jpg) no-repeat;
+}
+
+.undead-airborne-4 {
+    background: url(../img/units/undead/airborne-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Archer-------------------------------------------------------------*/
+.undead-archer-1 {
+    background: url(../img/units/undead/archer-1.jpg) no-repeat;
+}
+
+.undead-archer-2 {
+    background: url(../img/units/undead/archer-2.jpg) no-repeat;
+}
+
+.undead-archer-3 {
+    background: url(../img/units/undead/archer-3.jpg) no-repeat;
+}
+
+.undead-archer-4 {
+    background: url(../img/units/undead/archer-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Healer-------------------------------------------------------------*/
+.undead-healer-1 {
+    background: url(../img/units/undead/healer-1.jpg) no-repeat;
+}
+
+.undead-healer-2 {
+    background: url(../img/units/undead/healer-2.jpg) no-repeat;
+}
+
+.undead-healer-3 {
+    background: url(../img/units/undead/healer-3.jpg) no-repeat;
+}
+
+.undead-healer-4 {
+    background: url(../img/units/undead/healer-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Mercenary----------------------------------------------------------*/
+.undead-mercenary-1 {
+    background: url(../img/units/undead/mercenary-1.jpg) no-repeat;
+}
+
+.undead-mercenary-2 {
+    background: url(../img/units/undead/mercenary-2.jpg) no-repeat;
+}
+
+.undead-mercenary-3 {
+    background: url(../img/units/undead/mercenary-3.jpg) no-repeat;
+}
+
+.undead-mercenary-4 {
+    background: url(../img/units/undead/mercenary-4.jpg) no-repeat;
+}
+
+/*-------------------------------------------------Mage---------------------------------------------------------------*/
+.undead-mage-1 {
+    background: url(../img/units/undead/mage-1.jpg) no-repeat;
+}
+
+.undead-mage-2 {
+    background: url(../img/units/undead/mage-2.jpg) no-repeat;
+}
+
+.undead-mage-3 {
+    background: url(../img/units/undead/mage-3.jpg) no-repeat;
+}
+
+.undead-mage-4 {
+    background: url(../img/units/undead/mage-4.jpg) no-repeat;
 }

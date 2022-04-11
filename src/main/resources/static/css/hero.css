@@ -1,0 +1,10 @@
+.hero {
+    width: 82px;
+    height: 99px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.no-hero {
+    background: url(../img/heroes/no-hero.jpg) no-repeat;
+}
