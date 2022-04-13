@@ -1,6 +1,36 @@
 <div th:class="|row justify-content-end ${display}|" th:fragment="mainUnitPanel (who, ordinal, display)">
     <div class="col-7">
-        <div class="row">
+        <div class="row py-1">
+            <div class="col-2">
+                <select th:name="|${who}_${ordinal}_race|" th:id="|${who}_${ordinal}_select|">
+                    <option value="1">Knight</option>
+                    <option value="2">Demon</option>
+                    <option value="3">Elf</option>
+                    <option value="4">Drow</option>
+                    <option value="5">Undead</option>
+                    <option value="6">Monster</option>
+                    <option value="7">Ruin 1</option>
+                    <option value="8">Ruin 2</option>
+                    <option value="9">Ruin 3</option>
+                    <option value="10">Ruin 4</option>
+                    <option value="11">Ruin 5</option>
+                    <option value="12">Ruin 6</option>
+                </select>
+            </div>
+
+            <div class="col-2">
+                <input type="checkbox" th:name="|${who}_${ordinal}_betrayer|" th:id="|${who}_${ordinal}_betrayer|">
+                <label th:for="|${who}_${ordinal}_betrayer|">Betrayer</label>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="row py-1" th:id="|${who}_${ordinal}_unitRow|">
             <div class="col-4">
                 <div class="row">
                     <div class="col-4">
